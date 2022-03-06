@@ -374,7 +374,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot          : TGMoodleFree v0.4\n'
-            start_msg+= 'Desarrollador: @sinarrobamamawebo\n'
+            start_msg+= 'Desarrollador: @ernesto505\n'
             start_msg+= 'Uso          :Envia Enlaces De Descarga Para Procesar\n'
             bot.editMessageText(message,start_msg)
         elif '/files' == msgText and config.getUser(update.message.sender.username)['cloudtype']=='moodle':
